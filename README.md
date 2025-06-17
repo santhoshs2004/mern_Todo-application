@@ -13,9 +13,13 @@ React Icons
 
 ## Backend: 
 Node.js, 
+
 Express.js,
+
 MongoDB (Mongoose),
+
 dotenv,
+
 CORS
 
 ## Tools: 
@@ -23,12 +27,17 @@ Nodemon (for development)
 
 ## Features
 Add, update, delete, and fetch todos.
+
 Full-stack MERN architecture.
+
 Proxy setup to handle CORS issues during development.
+
 Tailwind CSS for styling.
+
 Modular backend with Models, Routes, and Controllers.
 
 ## Project Setup
+
 ## 1️⃣ Backend Setup
 Open VS Code and create frontend and backend folders.
 
@@ -59,8 +68,11 @@ npm run dev
 
 ##  2️⃣ Frontend Setup
 In a new terminal, navigate to frontend directory:
+
 cd frontend
+
 Create React app using Vite:
+
 npm create vite@latest
 
 Choose:
@@ -72,8 +84,11 @@ Variant: JavaScript
 Install frontend dependencies:
 
 npm install
+
 Install Tailwind CSS:
+
 npm install tailwindcss @tailwindcss/vite
+
 Modify vite.config.js to add Tailwind plugin:
 
 ![Screenshot 2025-06-17 212016](https://github.com/user-attachments/assets/61b5a99b-733c-4add-a281-810fbd985bd0)
@@ -82,11 +97,15 @@ Modify vite.config.js to add Tailwind plugin:
 Configure Tailwind CSS:
 
 In src/index.css, remove existing code and paste:
+
 @import "tailwindcss";
 
 Install additional frontend dependencies:
+
 npm install axios react-icons
+
 Start frontend server:
+
 npm run dev
 
 ## Development Flow
