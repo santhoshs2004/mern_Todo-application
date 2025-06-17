@@ -4,8 +4,11 @@ This project is a simple Todo List Application developed using the MERN stack â€
 ## Tech Stack
 ## Frontend: 
 React.js (Vite), 
+
 Tailwind CSS, 
+
 Axios, 
+
 React Icons
 
 ## Backend: 
