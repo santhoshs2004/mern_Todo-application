@@ -38,28 +38,13 @@ npm install nodemon -D
 
 Modify package.json:
 
-json
-Copy
-Edit
-"type": "module",
-"scripts": {
-  "dev": "nodemon backend/server.js"
-}
+![Screenshot 2025-06-17 211955](https://github.com/user-attachments/assets/30623a6b-8b6b-469f-a9c7-3bf9c2dc93f2)
+
 
 ## Create the backend folder structure:
 
-backend/
-│
-├── server.js
-├── config/
-│   └── db.js
-├── models/
-│   └── Todo.js
-├── routes/
-│   └── todoRoutes.js
-├── controllers/
-│   └── todoController.js
-├── .env
+![Screenshot 2025-06-17 212003](https://github.com/user-attachments/assets/fbd3c486-5f09-40ea-b0ea-0f67e770f118)
+
 
 ## Inside .env file:
 
@@ -88,21 +73,9 @@ Install Tailwind CSS:
 npm install tailwindcss @tailwindcss/vite
 Modify vite.config.js to add Tailwind plugin:
 
-javascript
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
+![Screenshot 2025-06-17 212016](https://github.com/user-attachments/assets/61b5a99b-733c-4add-a281-810fbd985bd0)
 
-export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  server: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-      }
-    }
-  }
-});
+
 Configure Tailwind CSS:
 
 In src/index.css, remove existing code and paste:
@@ -126,20 +99,9 @@ Test complete functionality.
 
 Folder Structure Summary
 
-project-root/
-│
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── .env
-│
-├── frontend/
-│   ├── src/
-│   ├── vite.config.js
-│   └── package.json
+![Screenshot 2025-06-17 212025](https://github.com/user-attachments/assets/f023bc92-d71d-4a09-ae01-4a251cfc656f)
+
+
 Run the Full App
 Start Backend (in one terminal):
 
